@@ -1,3 +1,3 @@
-My code works well for letting the server communicate with the clients. I tried my best to ensure thread-safe for all the appropriate places.
+My code works well for letting the server communicate with the clients. I made it best to ensure thread-safe for all the appropriate places.
 The database is memory safe and works fine. However, although the interactions seems working well, it still has bugs when I hit ctrl-d while
 connections with clients are active or after all clients are cleared. It exits properly though.
